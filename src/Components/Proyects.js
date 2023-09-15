@@ -49,25 +49,25 @@ function Proyects() {
         <Carousel showThumbs={false} className='carrusel'>
           <div>
             <img src={Visual} alt="" />
-            <p className="legend" style={{ color: 'rgba(0, 0, 0)', backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>Esta es la parte inicial del index de reggeaton</p>
+            <p className="legend" style={{ color: 'rgba(0, 0, 0)', backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>Form o parte visual</p>
           </div>
           <div>
             <img src={Form} alt="" />
             <p className="legend" style={{
               color: 'rgba(0, 0, 0)',
               backgroundColor: 'rgba(255, 255, 255, 0.7)'
-            }}>Recomendaciones de mi parte</p>
+            }}>Sección de código del Form</p>
           </div>
           <div>
             <img src={LibreriaLogica} alt="" />
             <p className="legend" style={{
               color: 'rgba(0, 0, 0)',
               backgroundColor: 'rgba(255, 255, 255, 0.7)'
-            }}>Una sección del código, para visualizar la página completa ingresar a: <a href='https://elgenero.netlify.app/' target='blank' rel='noopener noreferrer'>El Genero</a></p>
+            }}>Secció de código de la librería donde se ejecutan las sentencias SQL</p>
           </div>
           <div>
             <img src={Procedimiento} alt="" />
-            <p className="legend" style={{ color: 'rgba(0, 0, 0)', backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>Una sección del código, para visualizar la página completa ingresar a: <a href='https://elgenero.netlify.app/' target='blank' rel='noopener noreferrer'>El Genero</a></p>
+            <p className="legend" style={{ color: 'rgba(0, 0, 0)', backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>Procedimiento de almacenado en SQL SERVER</p>
           </div>
         </Carousel>
 
